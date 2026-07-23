@@ -1,4 +1,4 @@
-# Tutorial Mod
+# tutorialmod
 
 ## Setup
 

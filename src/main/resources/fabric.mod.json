@@ -2,24 +2,24 @@
 	"schemaVersion": 1,
 	"id": "tutorialmod",
 	"version": "${version}",
-	"name": "Tutorial Mod",
-	"description": "Tutorial Mod by MaxCraft42",
+	"name": "tutorialmod",
+	"description": "Meu primeiro mod",
 	"authors": [
-		"MaxCraft42!"
+		"Me!"
 	],
 	"contact": {
-		"homepage": "https://maxcraft.net/",
+		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/PedroWernek/tutorialmod"
 	},
-	"license": "CC0-1.0",
+	"license": "MAX",
 	"icon": "assets/tutorialmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.maxcraft.tutorialmod.TutorialMod"
+			"net.maxcraft.tutorialmod.Tutorialmod"
 		],
 		"fabric-datagen": [
-			"net.maxcraft.tutorialmod.TutorialModDataGenerator"
+			"net.maxcraft.tutorialmod.TutorialmodDataGenerator"
 		],
 		"client": [
 			"net.maxcraft.tutorialmod.TutorialModClient"
@@ -30,8 +30,8 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.19.3",
-		"minecraft": "~26.2",
-		"java": ">=25",
+		"minecraft": "~1.21",
+		"java": ">=21",
 		"fabric-api": "*"
 	}
 }
