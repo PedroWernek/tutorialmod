@@ -2,6 +2,7 @@ package net.maxcraft.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.maxcraft.tutorialmod.item.ModItems;
 import net.minecraft.resources.Identifier;
 
 import org.slf4j.Logger;
@@ -13,7 +14,7 @@ public class TutorialMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
 	}
 
 }
