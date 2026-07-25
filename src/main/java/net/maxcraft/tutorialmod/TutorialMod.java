@@ -2,8 +2,8 @@ package net.maxcraft.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.maxcraft.tutorialmod.block.ModBlocks;
 import net.maxcraft.tutorialmod.item.ModItems;
-import net.minecraft.util.Identifier;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,5 +15,6 @@ public class Tutorialmod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerBlocks();
 	}
 }
