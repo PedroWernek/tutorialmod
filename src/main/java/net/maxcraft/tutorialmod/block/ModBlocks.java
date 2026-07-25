@@ -1,7 +1,8 @@
 package net.maxcraft.tutorialmod.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.maxcraft.tutorialmod.Tutorialmod;
+import net.maxcraft.tutorialmod.TutorialMod;
+import net.maxcraft.tutorialmod.item.ModItemGroups;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -27,18 +28,14 @@ public class ModBlocks{
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, Identifier.of(Tutorialmod.MOD_ID,name), block);
+        return Registry.register(Registries.BLOCK, Identifier.of(TutorialMod.MOD_ID,name), block);
     }
     private static void registerBlockItem(String name, Block block){
-        Registry.register(Registries.ITEM, Identifier.of(Tutorialmod.MOD_ID,name),
+        Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID,name),
                 new BlockItem(block, new Item.Settings()));
     }
     public static void registerBlocks(){
-        Tutorialmod.LOGGER.info("Registranmdo blocos modificados para " + Tutorialmod.MOD_ID);
+        TutorialMod.LOGGER.info("Registranmdo blocos modificados para " + TutorialMod.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(ModBlocks.PINK_GARNET_BLOCK);
-            entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
-        });
     }
 }

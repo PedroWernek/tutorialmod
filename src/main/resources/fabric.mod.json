@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.maxcraft.tutorialmod.Tutorialmod"
+			"net.maxcraft.tutorialmod.TutorialMod"
 		],
 		"fabric-datagen": [
 			"net.maxcraft.tutorialmod.TutorialmodDataGenerator"
