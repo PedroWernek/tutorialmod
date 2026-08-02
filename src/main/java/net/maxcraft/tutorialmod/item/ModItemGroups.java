@@ -20,6 +20,8 @@ public class ModItemGroups {
                       //adicionando itens ao grupo
                         entries.add(ModItems.PINK_GARNET);
                         entries.add(ModItems.RAW_PINK_GARNET);
+                        entries.add(ModItems.CAULIFLOWER);
+                        entries.add(ModItems.STARLIGHT_ASHES);
 
                         entries.add(ModItems.CHISEL);
                     }).build());
@@ -34,6 +36,21 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.PINK_GARNET_ORE);
                         entries.add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
+
+                        entries.add(ModBlocks.MAGIC_BLOCK);
+
+                        entries.add(ModBlocks.PINK_GARNET_STAIRS);
+                        entries.add(ModBlocks.PINK_GARNET_SLAB);
+
+                        entries.add(ModBlocks.PINK_GARNET_BUTTON);
+                        entries.add(ModBlocks.PINK_GARNET_PRESSURE_PLATE);
+
+                        entries.add(ModBlocks.PINK_GARNET_FENCE);
+                        entries.add(ModBlocks.PINK_GARNET_FENCE_GATE);
+                        entries.add(ModBlocks.PINK_GARNET_WALL);
+
+                        entries.add(ModBlocks.PINK_GARNET_DOOR);
+                        entries.add(ModBlocks.PINK_GARNET_TRAPDOOR);
 
                     }).build());
 
