@@ -2,7 +2,7 @@ package net.maxcraft.tutorialmod.item;
 
 import net.maxcraft.tutorialmod.TutorialMod;
 import net.maxcraft.tutorialmod.item.custom.ChiselItem;
-import net.maxcraft.tutorialmod.item.custom.rarity.LegendayItem;
+import net.maxcraft.tutorialmod.item.custom.rarity.LegendaryItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.tooltip.TooltipType;
@@ -31,7 +31,7 @@ public class ModItems {
         }
     });
 
-    public static Item STARLIGHT_ASHES = registerItem("starlight_ashes", new LegendayItem(new Item.Settings()));
+    public static Item STARLIGHT_ASHES = registerItem("starlight_ashes", new LegendaryItem(new Item.Settings()));
 
     public static void registerModItems() {
         TutorialMod.LOGGER.info("Registrando items modificados em " + TutorialMod.MOD_ID);

@@ -12,8 +12,8 @@ import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LegendayItem extends Item {
-    public LegendayItem(Settings settings) {
+public class LegendaryItem extends Item {
+    public LegendaryItem(Settings settings) {
         super(settings);
     }
 

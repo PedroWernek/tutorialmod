@@ -19,7 +19,7 @@
 			"net.maxcraft.tutorialmod.TutorialMod"
 		],
 		"fabric-datagen": [
-			"net.maxcraft.tutorialmod.TutorialmodDataGenerator"
+			"net.maxcraft.tutorialmod.TutorialModDataGenerator"
 		],
 		"client": [
 			"net.maxcraft.tutorialmod.TutorialModClient"
